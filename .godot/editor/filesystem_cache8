@@ -1,0 +1,9 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1697593020
+CharacterBody2D.gd::GDScript::-1::1697589537::0::1::::<>CharacterBody2D<>::
+game_level.tscn::PackedScene::4042251372712500237::1697592452::0::1::::<><>::res://CharacterBody2D.gd<>uid://bhv7eqlyy724e::::res://Game Assets/Idle_Sprite.png<>uid://8ktt7qeqbtsk::::res://Game Assets/Running_Anim.png<>uid://w6s2dp0fxnss::::res://Tiles.png
+icon.svg::CompressedTexture2D::4508809028891138533::1697588506::1697593021::1::::<><>::
+Tiles.png::CompressedTexture2D::1609291574603397650::1697589314::1697593021::1::::<><>::
+::res://Game Assets/::1697588660
+Idle_Sprite.png::CompressedTexture2D::2923045467428992522::1697588660::1697593021::1::::<><>::
+Running_Anim.png::CompressedTexture2D::2338064876209682498::1697588660::1697593022::1::::<><>::
