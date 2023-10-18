@@ -1,14 +1,15 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1697620942
+::res://::1697653984
 CharacterBody2D.gd::GDScript::-1::1697596615::0::1::::<>CharacterBody2D<>::
-game_level.tscn::PackedScene::4042251372712500237::1697619893::0::1::::<><>::res://CharacterBody2D.gd<>uid://bhv7eqlyy724e::::res://Game Assets/Idle_Sprite.png<>uid://8ktt7qeqbtsk::::res://Game Assets/Running_Anim.png<>uid://w6s2dp0fxnss::::res://Tiles.png
+game_level.tscn::PackedScene::4042251372712500237::1697621781::0::1::::<><>::res://CharacterBody2D.gd<>uid://bhv7eqlyy724e::::res://Game Assets/Idle_Sprite.png<>uid://8ktt7qeqbtsk::::res://Game Assets/Running_Anim.png<>uid://w6s2dp0fxnss::::res://Tiles.png
 icon.svg::CompressedTexture2D::4508809028891138533::1697596615::1697598595::1::::<><>::
 Tiles.png::CompressedTexture2D::1609291574603397650::1697596615::1697596615::1::::<><>::
-::res://City Level/::1697620765
-level_designing.tscn::PackedScene::7978121696619749054::1697620765::0::1::::<><>::uid://cpd575e7rl1is::::res://Game Assets/Art/Tilemap.png
+::res://City Level/::1697622779
+level_designing.tscn::PackedScene::7978121696619749054::1697622779::0::1::::<><>::uid://cpd575e7rl1is::::res://Game Assets/Art/Tilemap.png
 ::res://Game Assets/::1697598847
 Idle_Sprite.png::CompressedTexture2D::2923045467428992522::1697597823::1697597823::1::::<><>::
 Running_Anim.png::CompressedTexture2D::2338064876209682498::1697597823::1697597823::1::::<><>::
-::res://Game Assets/Art/::1697617615
+::res://Game Assets/Art/::1697657789
 Tilemap.png::CompressedTexture2D::5833747393763653746::1697617573::1697617615::1::::<><>::
+Tileset2.png::CompressedTexture2D::5231900243711449914::1697657763::1697657797::1::::<><>::
 ::res://LPCAnimatedSprite/::1697598284
