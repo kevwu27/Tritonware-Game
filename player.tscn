@@ -143,17 +143,17 @@ animations = [{
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_uce67"]
-radius = 124.0
-height = 519.309
+radius = 68.6259
+height = 295.911
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
 scale = Vector2(0.2, 0.2)
 script = ExtResource("1_1wtdd")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-scale = Vector2(9, 9)
+scale = Vector2(5, 5)
 sprite_frames = SubResource("SpriteFrames_45a6a")
-animation = &"jump"
+animation = &"idle"
 autoplay = "idle"
 flip_h = true
 
