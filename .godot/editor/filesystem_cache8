@@ -1,14 +1,20 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1697678588
-CharacterBody2D.gd::GDScript::-1::1697589537::0::1::::<>CharacterBody2D<>::
-game_level.tscn::PackedScene::4042251372712500237::1697678578::0::1::::<><>::res://CharacterBody2D.gd<>uid://bhv7eqlyy724e::::res://Game Assets/Idle_Sprite.png<>uid://8ktt7qeqbtsk::::res://Game Assets/Running_Anim.png<>uid://w6s2dp0fxnss::::res://Tiles.png
+::res://::1697782698
+CharacterBody2D.gd::GDScript::-1::1697782698::0::1::::<>CharacterBody2D<>::
+game_level.tscn::PackedScene::4042251372712500237::1697782698::0::1::::<><>::uid://dq13ghpcd1r0o::::res://player.tscn<>uid://8ktt7qeqbtsk::::res://Game Assets/Running_Anim.png<>uid://w6s2dp0fxnss::::res://Tiles.png
 icon.svg::CompressedTexture2D::4508809028891138533::1697588506::1697678589::1::::<><>::
+idle_sprite.png::CompressedTexture2D::4171104396427578645::1697781051::1697781051::1::::<><>::
+player.tscn::PackedScene::8337668552385705380::1697782698::0::1::::<><>::res://CharacterBody2D.gd<>uid://b0orqk5bsfct6::::res://idle_sprite.png<>uid://cqwcexku5a3xt::::res://Game Assets/MCRun.png
 Tiles.png::CompressedTexture2D::1609291574603397650::1697589314::1697593021::1::::<><>::
 ::res://City Level/::1697678567
-level_designing.tscn::PackedScene::7978121696619749054::1697678567::0::1::::<><>::uid://cpd575e7rl1is::::res://Game Assets/Art/Tilemap.png<>uid://cgsmvrkv4wp0m::::res://Game Assets/Art/Tileset2.png
-::res://Game Assets/::1697678567
-Idle_Sprite.png::CompressedTexture2D::2923045467428992522::1697588660::1697593021::1::::<><>::
+level_designing.tscn::PackedScene::7978121696619749054::1697678567::0::1::::<><>::uid://cpd575e7rl1is
+::res://Game Assets/::1697782794
+idle_new.png::CompressedTexture2D::1375228700959563831::1697779676::1697779676::1::::<><>::
+Jump_Animation.png::CompressedTexture2D::2497984960674234052::1697782794::1697782795::1::::<><>::
+MCRun.png::CompressedTexture2D::5941408977779117041::1697781165::1697781165::1::::<><>::
 Running_Anim.png::CompressedTexture2D::2338064876209682498::1697588660::1697593022::1::::<><>::
+Tiles.png::CompressedTexture2D::5606964970819245879::1697781036::1697781036::1::::<><>::
+Update_Run_Anim.png::CompressedTexture2D::7152503840854382387::1697778630::1697778630::1::::<><>::
 ::res://Game Assets/Art/::1697678567
 desktop.ini::TextFile::-1::1697678567::0::1::::<><>::
 Tilemap.png::CompressedTexture2D::5833747393763653746::1697678567::1697678567::1::::<><>::
