@@ -1,13 +1,13 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1697794381
+::res://::1697832057
 CharacterBody2D.gd::GDScript::-1::1697793773::0::1::::<>CharacterBody2D<>::
 game_level.tscn::PackedScene::4042251372712500237::1697794054::0::1::::<><>::uid://dq13ghpcd1r0o
 icon.svg::CompressedTexture2D::4508809028891138533::1697596615::1697794078::1::::<><>::
 idle_sprite.png::CompressedTexture2D::4171104396427578645::1697793773::1697793773::1::::<><>::
 player.tscn::PackedScene::8337668552385705380::1697794054::0::1::::<><>::res://CharacterBody2D.gd<>uid://b0orqk5bsfct6
 Tiles.png::CompressedTexture2D::1609291574603397650::1697596615::1697596615::1::::<><>::
-::res://City Level/::1697794311
-level_designing.tscn::PackedScene::7978121696619749054::1697794311::0::1::::<><>::uid://cpd575e7rl1is::::res://Game Assets/Art/Tilemap.png<>uid://cgsmvrkv4wp0m::::res://Game Assets/Art/Tileset2.png<>uid://cluiokk5g0mge::::res://Game Assets/Art/Whale.png<>uid://bnmuolm8w0x06::::res://Game Assets/Art/Collectible.png
+::res://City Level/::1697795649
+level_designing.tscn::PackedScene::7978121696619749054::1697795649::0::1::::<><>::uid://cpd575e7rl1is::::res://Game Assets/Art/Tilemap.png<>uid://cgsmvrkv4wp0m::::res://Game Assets/Art/Tileset2.png<>uid://cluiokk5g0mge::::res://Game Assets/Art/Whale.png<>uid://bnmuolm8w0x06::::res://Game Assets/Art/Collectible.png
 ::res://Game Assets/::1697793773
 idle_new.png::CompressedTexture2D::1375228700959563831::1697793773::1697793773::1::::<><>::
 Jump_Animation.png::CompressedTexture2D::2497984960674234052::1697793773::1697793773::1::::<><>::
@@ -15,7 +15,8 @@ MCRun.png::CompressedTexture2D::5941408977779117041::1697793773::1697793773::1::
 Running_Anim.png::CompressedTexture2D::2338064876209682498::1697597823::1697597823::1::::<><>::
 Tiles.png::CompressedTexture2D::5606964970819245879::1697793773::1697793773::1::::<><>::
 Update_Run_Anim.png::CompressedTexture2D::7152503840854382387::1697793773::1697793773::1::::<><>::
-::res://Game Assets/Art/::1697794131
+::res://Game Assets/Art/::1697838086
+Background.png::CompressedTexture2D::944604574130078829::1697838039::1697838089::1::::<><>::
 Collectible.png::CompressedTexture2D::3324888122830520213::1697793939::1697794131::1::::<><>::
 Tilemap.png::CompressedTexture2D::5833747393763653746::1697617573::1697617615::1::::<><>::
 Tileset2.png::CompressedTexture2D::5231900243711449914::1697657763::1697657797::1::::<><>::
