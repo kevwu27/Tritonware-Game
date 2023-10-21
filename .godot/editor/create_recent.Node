@@ -1,4 +1,7 @@
+Sprite2D
+CollisionShape2D
 TileMap
+Area2D
 Node
 AnimatedSprite2D
 RemoteTransform2D

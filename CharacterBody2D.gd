@@ -69,3 +69,6 @@ func jump():
 func _on_animated_sprite_2d_animation_finished():
 	if(animated_sprite.animation == "jump"):
 		animation_locked = false
+
+func die():
+	get_tree().reload_current_scene()
