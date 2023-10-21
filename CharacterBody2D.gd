@@ -1,7 +1,7 @@
 extends CharacterBody2D
 
 
-@export var speed : float = 120.0
+@export var speed : float = 100.0
 @export var jump_velocity : float = -345.0
 @onready var animated_sprite : AnimatedSprite2D = $AnimatedSprite2D
 #const wall_jump_pushback = 100
