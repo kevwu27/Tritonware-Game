@@ -1,8 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://bxudj3xvbf3s8"]
+[gd_scene load_steps=5 format=3 uid="uid://bxudj3xvbf3s8"]
 
 [ext_resource type="PackedScene" uid="uid://dq13ghpcd1r0o" path="res://player.tscn" id="1_xuald"]
 [ext_resource type="PackedScene" uid="uid://80gmlgnh8t6t" path="res://spikes.tscn" id="2_1bcv0"]
 [ext_resource type="PackedScene" uid="uid://dlwwq7r5ndbgg" path="res://City Level/level_designing.tscn" id="3_d45dw"]
+[ext_resource type="PackedScene" uid="uid://b5bd8dyq5kfkp" path="res://whale.tscn" id="4_f83m6"]
 
 [node name="GameLevel" type="Node2D"]
 position = Vector2(-63, 102)
@@ -21,13 +22,13 @@ position = Vector2(-32, 0)
 position = Vector2(-32, 0)
 
 [node name="Player" parent="." instance=ExtResource("1_xuald")]
-position = Vector2(466, 393)
+position = Vector2(470, 400)
 
 [node name="RemoteTransform2D" type="RemoteTransform2D" parent="Player"]
 remote_path = NodePath("../../Camera2D")
 
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(466, 393)
+position = Vector2(470, 400)
 scale = Vector2(0.2, 0.2)
 zoom = Vector2(5, 5)
 process_callback = 0
@@ -591,3 +592,15 @@ rotation = -1.5708
 [node name="Spikes143" parent="." instance=ExtResource("2_1bcv0")]
 position = Vector2(2267, 846)
 rotation = 1.5708
+
+[node name="Whale" parent="." instance=ExtResource("4_f83m6")]
+position = Vector2(1847, 2026)
+
+[node name="Whale2" parent="." instance=ExtResource("4_f83m6")]
+position = Vector2(2231, 1418)
+
+[node name="Whale3" parent="." instance=ExtResource("4_f83m6")]
+position = Vector2(1783, 746)
+
+[node name="Whale4" parent="." instance=ExtResource("4_f83m6")]
+position = Vector2(407, 618)

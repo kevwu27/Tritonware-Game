@@ -1,14 +1,15 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1697851313
+::res://::1697865184
 CharacterBody2D.gd::GDScript::-1::1697841553::0::1::::<>CharacterBody2D<>::
-game_level.tscn::PackedScene::4042251372712500237::1697841878::0::1::::<><>::uid://dq13ghpcd1r0o::::res://player.tscn<>uid://80gmlgnh8t6t::::res://spikes.tscn<>uid://dlwwq7r5ndbgg::::res://City Level/level_designing.tscn
+game_level.tscn::PackedScene::4042251372712500237::1697864272::0::1::::<><>::uid://dq13ghpcd1r0o::::res://player.tscn<>uid://80gmlgnh8t6t::::res://spikes.tscn<>uid://dlwwq7r5ndbgg::::res://City Level/level_designing.tscn
 icon.svg::CompressedTexture2D::4508809028891138533::1697588506::1697839307::1::::<><>::
 idle_sprite.png::CompressedTexture2D::4171104396427578645::1697788415::1697788415::1::::<><>::
-player.tscn::PackedScene::8337668552385705380::1697841840::0::1::::<><>::res://CharacterBody2D.gd<>uid://b0orqk5bsfct6::::res://idle_sprite.png<>uid://bbubphelnsxmq::::res://Game Assets/Jump_Animation.png<>uid://cqwcexku5a3xt::::res://Game Assets/MCRun.png
+player.tscn::PackedScene::8337668552385705380::1697864272::0::1::::<><>::res://CharacterBody2D.gd<>uid://b0orqk5bsfct6::::res://idle_sprite.png<>uid://bbubphelnsxmq::::res://Game Assets/Jump_Animation.png<>uid://cqwcexku5a3xt::::res://Game Assets/MCRun.png
 spikes.tscn::PackedScene::2368227603017033621::1697841841::0::1::::<><>::res://City Level/Spikes.gd<>uid://cpd575e7rl1is::::res://Game Assets/Art/Tilemap.png
 Tiles.png::CompressedTexture2D::1609291574603397650::1697589314::1697593021::1::::<><>::
-::res://City Level/::1697841841
-level_designing.tscn::PackedScene::7978121696619749054::1697841841::0::1::::<><>::uid://cpd575e7rl1is::::res://Game Assets/Art/Tilemap.png<>uid://nptq8htjf7xh::::res://Game Assets/Art/Background.png<>uid://cgsmvrkv4wp0m::::res://Game Assets/Art/Tileset2.png<>uid://cluiokk5g0mge::::res://Game Assets/Art/Whale.png<>uid://bnmuolm8w0x06::::res://Game Assets/Art/Collectible.png
+Untitled_Artwork.png::CompressedTexture2D::6043613041177310138::1697865184::1697865184::1::::<><>::
+::res://City Level/::1697864272
+level_designing.tscn::PackedScene::7978121696619749054::1697864272::0::1::::<><>::uid://cpd575e7rl1is::::res://Game Assets/Art/Tilemap.png<>uid://nptq8htjf7xh::::res://Game Assets/Art/Background.png<>uid://cgsmvrkv4wp0m::::res://Game Assets/Art/Tileset2.png<>uid://cluiokk5g0mge::::res://Game Assets/Art/Whale.png<>uid://bnmuolm8w0x06::::res://Game Assets/Art/Collectible.png
 Spikes.gd::GDScript::-1::1697841553::0::1::::<>Area2D<>::
 ::res://Game Assets/::1697788415
 idle_new.png::CompressedTexture2D::1375228700959563831::1697788415::1697788415::1::::<><>::
