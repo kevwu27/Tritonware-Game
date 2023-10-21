@@ -22,13 +22,13 @@ position = Vector2(-32, 0)
 position = Vector2(-32, 0)
 
 [node name="Player" parent="." instance=ExtResource("1_xuald")]
-position = Vector2(470, 400)
+position = Vector2(1324, 1850)
 
 [node name="RemoteTransform2D" type="RemoteTransform2D" parent="Player"]
 remote_path = NodePath("../../Camera2D")
 
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(470, 400)
+position = Vector2(1324, 1850)
 scale = Vector2(0.2, 0.2)
 zoom = Vector2(5, 5)
 process_callback = 0

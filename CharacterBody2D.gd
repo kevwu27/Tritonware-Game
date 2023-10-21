@@ -1,10 +1,10 @@
 extends CharacterBody2D
 
 
-@export var speed : float = 200.0
-@export var jump_velocity : float = -350.
+@export var speed : float = 120.0
+@export var jump_velocity : float = -345.0
 @onready var animated_sprite : AnimatedSprite2D = $AnimatedSprite2D
-const wall_jump_pushback = 700
+#const wall_jump_pushback = 100
 
 # const jump_power = -800.0
 
@@ -61,12 +61,12 @@ func jump():
 			#animated_sprite.play("climb")
 			#animation_locked = true
 			velocity.y = jump_velocity
-			velocity.x = -wall_jump_pushback
+			#velocity.x = -wall_jump_pushback
 		if is_on_wall() and Input.is_action_pressed("left"):
 			#animated_sprite.play("climb")
 			#animation_locked = true
 			velocity.y = jump_velocity
-			velocity.x = wall_jump_pushback
+			#velocity.x = wall_jump_pushback
 			
 	
 

@@ -79,10 +79,16 @@ animations = [{
 "frames": [{
 "duration": 1.0,
 "texture": ExtResource("2_kfqje")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_kfqje")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_kfqje")
 }],
 "loop": true,
 "name": &"climb",
-"speed": 1.0
+"speed": 3.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -93,7 +99,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"idle",
-"speed": 2.0
+"speed": 5.0
 }, {
 "frames": [{
 "duration": 1.0,
@@ -148,7 +154,7 @@ animations = [{
 }],
 "loop": true,
 "name": &"run",
-"speed": 5.0
+"speed": 8.0
 }]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_uce67"]
@@ -158,16 +164,13 @@ height = 150.674
 [node name="CharacterBody2D" type="CharacterBody2D"]
 scale = Vector2(0.2, 0.2)
 script = ExtResource("1_1wtdd")
-speed = 95.0
-jump_velocity = -175.0
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 scale = Vector2(2.5, 2.5)
 sprite_frames = SubResource("SpriteFrames_45a6a")
-animation = &"jump"
+animation = &"climb"
 autoplay = "idle"
-frame = 8
-frame_progress = 1.0
+frame_progress = 0.837389
 flip_h = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
