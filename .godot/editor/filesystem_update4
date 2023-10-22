@@ -1,10 +1,14 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 res://game_level.gd
 res://game_level.tscn
 res://CharacterBody2D.gd
 res://whale.gd
 >>>>>>> parent of 471f195 (more updates)
+=======
+>>>>>>> test
 res://player.tscn
 res://City Level/level_designing.tscn
 res://whale.tscn
+res://game_level.tscn

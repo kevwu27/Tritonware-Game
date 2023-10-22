@@ -4,7 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://dq13ghpcd1r0o" path="res://player.tscn" id="1_xuald"]
 [ext_resource type="PackedScene" uid="uid://80gmlgnh8t6t" path="res://spikes.tscn" id="2_1bcv0"]
 [ext_resource type="PackedScene" uid="uid://dlwwq7r5ndbgg" path="res://City Level/level_designing.tscn" id="3_d45dw"]
-[ext_resource type="PackedScene" uid="uid://b5bd8dyq5kfkp" path="res://whale.tscn" id="4_f83m6"]
+[ext_resource type="PackedScene" uid="uid://c3hv8p281c3sk" path="res://whale.tscn" id="4_f83m6"]
 
 [node name="GameLevel" type="Node2D"]
 position = Vector2(-63, 102)
