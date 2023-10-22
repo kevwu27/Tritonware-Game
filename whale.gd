@@ -1,9 +1,10 @@
 extends Area2D
 
-var score = 0
+
+signal collected
 
 func _on_body_entered(body):
 	if(body.name == "Player"):
+		emit_signal("collected")
 		queue_free()
-		score += 1
 

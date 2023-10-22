@@ -1,5 +1,6 @@
-[gd_scene load_steps=5 format=3 uid="uid://bxudj3xvbf3s8"]
+[gd_scene load_steps=6 format=3 uid="uid://bxudj3xvbf3s8"]
 
+[ext_resource type="Script" path="res://game_level.gd" id="1_2dhx1"]
 [ext_resource type="PackedScene" uid="uid://dq13ghpcd1r0o" path="res://player.tscn" id="1_xuald"]
 [ext_resource type="PackedScene" uid="uid://80gmlgnh8t6t" path="res://spikes.tscn" id="2_1bcv0"]
 [ext_resource type="PackedScene" uid="uid://dlwwq7r5ndbgg" path="res://City Level/level_designing.tscn" id="3_d45dw"]
@@ -7,6 +8,7 @@
 
 [node name="GameLevel" type="Node2D"]
 position = Vector2(-63, 102)
+script = ExtResource("1_2dhx1")
 
 [node name="Level Designing" parent="." instance=ExtResource("3_d45dw")]
 position = Vector2(11, -35)
@@ -604,3 +606,20 @@ position = Vector2(1783, 746)
 
 [node name="Whale4" parent="." instance=ExtResource("4_f83m6")]
 position = Vector2(407, 618)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="RichTextLabel" type="RichTextLabel" parent="CanvasLayer"]
+anchors_preset = -1
+anchor_right = 0.609
+anchor_bottom = 0.564
+offset_left = 27.0
+offset_top = 13.0
+offset_right = -379.568
+offset_bottom = -303.472
+theme_override_font_sizes/normal_font_size = 35
+text = "Find All 4 Whales!"
+fit_content = true
+autowrap_mode = 0
+
+[connection signal="collected" from="Whale" to="." method="_on_whale_collected"]

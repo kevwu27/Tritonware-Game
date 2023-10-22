@@ -13,6 +13,8 @@ var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 var animation_locked : bool = false
 var direction : Vector2 = Vector2.ZERO
 
+static var score = 0
+
 func _physics_process(delta):
 	# Add the gravity.
 	velocity.y += gravity * delta
