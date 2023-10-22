@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://b5bd8dyq5kfkp"]
+[gd_scene load_steps=4 format=3 uid="uid://c3hv8p281c3sk"]
 
 [ext_resource type="Script" path="res://whale.gd" id="1_as8lq"]
 [ext_resource type="Texture2D" uid="uid://bnmuolm8w0x06" path="res://Game Assets/Art/Collectible.png" id="2_71ath"]
