@@ -1,7 +1,4 @@
-res://game_level.gd
-res://game_level.tscn
-res://CharacterBody2D.gd
-res://whale.gd
 res://player.tscn
 res://City Level/level_designing.tscn
 res://whale.tscn
+res://game_level.tscn
