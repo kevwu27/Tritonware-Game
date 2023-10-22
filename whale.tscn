@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://c3hv8p281c3sk"]
+
+[ext_resource type="Script" path="res://whale.gd" id="1_as8lq"]
+[ext_resource type="Texture2D" uid="uid://bnmuolm8w0x06" path="res://Game Assets/Art/Collectible.png" id="2_71ath"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_uteuv"]
+radius = 12.0
+
+[node name="Whale" type="Area2D"]
+script = ExtResource("1_as8lq")
+
+[node name="WhaleCollectible" type="Sprite2D" parent="."]
+position = Vector2(4, 3)
+texture = ExtResource("2_71ath")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(3, 0)
+shape = SubResource("CircleShape2D_uteuv")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
